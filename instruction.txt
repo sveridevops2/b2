@@ -1,0 +1,16 @@
+//Installation
+sudo apt-get update
+sudo apt-get install git
+
+git --version
+mkdir directoryname
+cd directoryname
+
+git init
+git status
+git add <filename>
+git config --global user.name
+git config --global user.email
+git commit -m "Informative message"
+git remote add name git_hubURL
+git push name master
