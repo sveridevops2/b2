@@ -9,8 +9,8 @@ cd directoryname
 git init
 git status
 git add <filename>
-git config --global user.name
-git config --global user.email
+git config --global user.name "Your Name"
+git config --global user.email "Your email Address"
 git commit -m "Informative message"
 git remote add name git_hubURL
 git push name master
